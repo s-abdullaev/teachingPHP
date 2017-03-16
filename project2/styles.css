@@ -1,0 +1,41 @@
+
+a:link {
+    color: #00f;
+}
+
+a:visited {
+	color:#0f0;
+}
+
+a:hover {
+	color:#f00;
+}
+
+#frank {
+	float: right;
+}
+
+div {
+ margin: 10px;
+ border: 3px solid #73AD21;
+}
+.floating-box {
+    float: left;
+    width: 250px;
+    height: 75px;
+}
+
+.floating-box2 {
+    float: left;
+    width: 525px;
+    padding: 3px;
+}
+
+#sidebar {
+	position: fixed;
+	left: 30%;
+	top: 30%;
+	height: 300px;
+	width: 40%;
+	background-color: gray;
+}

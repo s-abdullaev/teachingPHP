@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Descendants</title>
+    <style>
+        div.container {
+            border: 5px solid red;
+            width:100%;
+            min-width:350px;
+            max-width:750px;
+        }
+
+        div.container > span {
+            color: red;
+            font-size: 16pt;
+        }
+
+        div.container h2 span{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span>My title</span>
+        <div>
+            <h2>Lorem ipsum dolor sit amet, consectetur
+                <span class="special">hot offer</span> adipisicing elit.
+            </h2>
+        </div>
+        <div>Lorem ipsum dolor sit amet, <span class="special">some offer</span>consectetur adipisicing elit. Asperiores totam quos soluta porro nobis fugiat, sunt quia suscipit officia maiores quis ea? Exercitationem qui earum, inventore necessitatibus reiciendis. Quae, quas!</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores totam quos soluta porro nobis fugiat, sunt quia suscipit officia maiores quis ea? Exercitationem qui earum, inventore necessitatibus reiciendis. Quae, quas!</div>
+    </div>
+</body>
+</html>

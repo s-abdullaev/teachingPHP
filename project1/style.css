@@ -1,0 +1,39 @@
+/*
+h1 {
+    font-size: xx-large;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    word-spacing: 5pt;
+    letter-spacing: 5pt;
+    font-family:sans-serif;
+}
+*/
+
+body {
+    background-color: #6dabe8;
+    font-family: Garamond, Arial, serif;
+}
+
+h1, p {
+    color: green;
+}
+
+h1 {
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    word-spacing: 5pt;
+    letter-spacing: 5pt;
+}
+
+p.first_p {
+   color: red;
+   text-indent: 20pt;
+}
+
+ol {
+    list-style-type: lower-roman;
+}

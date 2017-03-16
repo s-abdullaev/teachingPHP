@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Search</title>
+    <style>
+        .centered {
+            width: 100%;
+            margin: 2px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <form action="params.php" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Search Google</legend>
+            <input type="text" name="q">
+        </fieldset>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <dl>
+                <dt>Name</dt>
+                <dd><input type="text" name="name"></dd>
+
+                <dt>Address</dt>
+                <dd><textarea name="address" cols="30" rows="10">
+                    Give some address...
+                </textarea></dd>
+
+                <dt>ID Number</dt>
+                <dd><input type="text" name="idnumber" maxlength="8"></dd>
+
+                <dt>Is Active</dt>
+                <dd><input type="checkbox" name="isActive"></dd>
+
+                <dt>Year of Study</dt>
+                <dd>
+                    <label for="">Year 1<input type="radio" name="yearOfStudy" id="" selected value="year1"></label>
+                    <label for="">Year 2<input type="radio" name="yearOfStudy" id="" value="year2"></label>
+                    <label for="">Year 3<input type="radio" name="yearOfStudy" id="" value="year3"></label>
+                </dd>
+
+                <dt>The Most Favorite Hobby</dt>
+                <dd>
+                    <select name="hobby" id="">
+                        <option value="" disabled="" selected="">Select any hobby...</option>
+                        <option value="hobby1">Hobby 1</option>
+                        <option value="hobby2">Hobby 2</option>
+                        <option value="hobby3">Hobby 3</option>
+                        <option value="hobby4">Hobby 4</option>
+                        <option value="hobby5">Hobby 5</option>
+                    </select>
+                </dd>
+
+                <dt>My Modules</dt>
+                <dd>
+                    <select name="module[]" id="" multiple="">
+                        <option value="module1">Module 1</option>
+                        <option value="module2">Module 2</option>
+                        <option value="module3">Module 3</option>
+                        <option value="module4">Module 4</option>
+                        <option value="module5">Module 5</option>
+                    </select>
+                </dd>
+            </dl>
+        </fieldset>
+        <input type="file" name="avatar" accept="image/*">
+        <div class="centered">
+              <input type="submit" value="Submit">
+        </div>
+        </form>
+    </div>
+</body>
+<!-- q=hello+world&name=Sarvar&address=Ziyolilar+str&idnumber=12312312&isActive=on&yearOfStudy=year1&hobby=hobby2&module%5B%5D=module3&module%5B%5D=module4&module%5B%5D=module5 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

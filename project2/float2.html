@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Float Example</title>
+        <style>
+        .frank {
+            position: fixed;
+            top: 40px;
+            left: 50px;
+            z-index: -1;
+        }
+
+        h1 {
+            border: 2px solid green;
+        }
+
+        div {
+            border: 2px solid red;
+            margin: 2px;
+        }
+
+        div.image_paragraph {
+            overflow: hidden;
+            float: left;
+            width: 70%;
+            position: relative;
+        }
+
+        div.text_paragraph {
+            float: left;
+            width:20%;
+        }
+
+        div.smallbox {
+            float: left;
+            width:200px;
+        }
+
+        li {
+            display: inline;
+        }
+
+        li.male {
+
+        }
+
+        li.female {
+
+        }
+
+        </style>
+    </head>
+    <body>
+        <h1>My Picture</h1>
+
+        <div class="text_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, suscipit perferendis placeat similique dignissimos nam nostrum, nemo eligendi quibusdam odit repellendus quos, animi commodi delectus voluptas, pariatur doloribus maiores. Ex!</div>
+        <div class="image_paragraph">
+            <ul>
+                <li class="male">Male 1</li>
+                <li class="male">Male 2</li>
+                <li class="male">Male 3</li>
+                <li class="male">Male 4</li>
+                <li class="male">Male 5</li>
+                <li class="female">Female 1</li>
+                <li class="female">Female 2</li>
+                <li class="female">Female 3</li>
+                <li class="female">Female 4</li>
+                <li class="female">Female 5</li>
+            </ul>
+        </div>
+
+        <div class="smallbox">Box</div>
+        <div class="smallbox">Box</div>
+        <div class="smallbox">Box</div>
+
+    </body>
+</html>
